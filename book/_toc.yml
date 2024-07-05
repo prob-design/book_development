@@ -5,7 +5,6 @@ parts:
   - caption: Contents
     chapters:
     - file: some_content/overview.md
-    - file: copula/example_2_25_code.md
 # START REMOVE-FROM-PUBLISH
       sections:
       - file: some_content/text_and_code.ipynb
