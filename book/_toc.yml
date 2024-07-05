@@ -9,6 +9,7 @@ parts:
 # START REMOVE-FROM-PUBLISH
       sections:
       - file: some_content/text_and_code.ipynb
+      - file: copula/example_2_25_code.md
 # END REMOVE-FROM-PUBLISH
     - file: references.md
     - file: credits.md
