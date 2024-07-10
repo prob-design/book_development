@@ -41,16 +41,15 @@ $$
     &= \frac{4}{5a\cdot b} \int_{0}^{a} \left[\frac{x}{a}+\frac{y}{b}+\frac{xy}{a \cdot b } \right]_{0}^{b}\\
     &= \frac{4}{5a\cdot b} \left[\frac{x^2}{2a}+\frac{xy}{b}+\frac{x^2y}{2a \cdot b } \right]_{0}^{a}\\
     &= \frac{4}{5a\cdot b}xy \left(\frac{x}{2a}+\frac{y}{2b}+\frac{xy}{4a \cdot b } \right)\\
-\label{label33}
 \end{align*}
-$$ (label44)
+$$ (label33)
 
 Multiplied with $\cdot \frac{ab}{ab}$, this becomes:
 $$
     H_{X,Y}(x,y) = \frac{xy}{5a^2\cdot b^2} \left(2a\cdot y + 2b \cdot x + x \cdot y \right)
 $$ (label34)
 
-Then the marginal distribution functions can be found by obtaining limits of equation \eqref{label33}
+Then the marginal distribution functions can be found by obtaining limits of this equation 
 
 $$
 \begin{align*}
@@ -62,5 +61,34 @@ $$
     &= \frac{x}{5a^2\cdot b} \left(3x\cdot b + 2b\cdot a \right)\\
     &= \frac{x}{5a^2} \left(3x + 2 a \right)\\
 \end{align*}
-$$ (label44)
+$$ (label35)
+
+In a similar manner the expression for $F_Y(y)$ can be obtained:
+$$
+\begin{align*}
+    F_Y(y) &= \frac{y}{5a\cdot b^2} \left(3y\cdot a + 2b\cdot a \right)\\
+    & = \frac{y}{5b^2} \left(3y + 2b \right)\\
+\end{align*}
+$$ (label36)
 :::
+
+Now the inverses of $F$ and $G$ need to be found. For this example, it is possible to find a closed form expression for the inverse on its domain.
+$$
+\begin{align*}
+    u&=\frac{x}{5a^2} \left(3x + 2 a \right)\\
+    u&=\frac{5}{12} \left(\frac{36x^2}{25a^2} + \frac{24x}{25a} \right)\\
+    \frac{12u}{5} + \frac{4}{25}&=\frac{36x^2}{25a^2}+\frac{24x}{25a}+\frac{4}{25}=\left(\frac{6x}{5a} + \frac{2}{5} \right)^2\\
+    \sqrt{\frac{12u}{5}+ \frac{4}{25}} &= \frac{6x}{5a} + \frac{2}{5} = \frac{1}{5} \left(\frac{6x}{a} + 2\right)\\
+    5\sqrt{\frac{12u}{5}+ \frac{4}{25}} &= \frac{6x}{a}+2\\
+    \frac{6x}{a} &=  5\sqrt{\frac{12u}{5}+ \frac{4}{25}} - 2\\
+    x &= \frac{a}{6} \left(5\sqrt{\frac{12u}{5}+ \frac{4}{25}} - 2  \right)\\
+    F_{U}^{-1}(u) &= \frac{a}{6} \left(5\sqrt{\frac{12u}{5}+ \frac{4}{25}} - 2  \right)
+\end{align*}
+$$ (label37)
+
+In a similar way the expression for $G_{V}^{-1}(v)$ can be found:
+$$
+    G_{V}^{-1}(v) = \frac{b}{6} \left(5\sqrt{\frac{12v}{5}+ \frac{4}{25}} - 2 \right)
+$$ (label38)
+
+According to equation \ref(), these expression above must then be substituted for the arguments $x$ and $y$ \ref() to obtain the copula $C_{U,V}$
