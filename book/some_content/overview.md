@@ -14,11 +14,11 @@ In which $u,v \in [0 \ 1]$ and and $F^{-1}$ and $G^{-1}$ are the inverses of $F$
 
 $$
     \lim_{x\to sup(Y)}{H_{X,Y}(x,y)}
-$$
+$$ (label1)
 
 $$
     \lim_{x\to sup(X)}{H_{X,Y}(x,y)}
-$$
+$$ (label2)
 
 Where $sup(X)$ is the supremum of $X$, which on a closed interval is equal to $max(X)$ and on an open interval is equal to the upper interval boundary, or if there is no boundary, $sup(X) = \infty $. To clarify the procedure, an example will be given.
 
