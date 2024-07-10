@@ -45,6 +45,7 @@ $$
 $$ (label33)
 
 Multiplied with $\cdot \frac{ab}{ab}$, this becomes:
+
 $$
     H_{X,Y}(x,y) = \frac{xy}{5a^2\cdot b^2} \left(2a\cdot y + 2b \cdot x + x \cdot y \right)
 $$ (label34)
