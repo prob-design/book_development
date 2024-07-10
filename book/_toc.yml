@@ -5,10 +5,11 @@ parts:
   - caption: Contents
     chapters:
     - file: some_content/overview.md
+    - file: some_content/example_2_25_code.md
+
 # START REMOVE-FROM-PUBLISH
       sections:
       - file: some_content/text_and_code.ipynb
-      - file: copula/example_2_25_code.md
 # END REMOVE-FROM-PUBLISH
     - file: references.md
     - file: credits.md
