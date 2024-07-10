@@ -41,17 +41,26 @@ $$
     &= \frac{4}{5a\cdot b} \int_{0}^{a} \left[\frac{x}{a}+\frac{y}{b}+\frac{xy}{a \cdot b } \right]_{0}^{b}\\
     &= \frac{4}{5a\cdot b} \left[\frac{x^2}{2a}+\frac{xy}{b}+\frac{x^2y}{2a \cdot b } \right]_{0}^{a}\\
     &= \frac{4}{5a\cdot b}xy \left(\frac{x}{2a}+\frac{y}{2b}+\frac{xy}{4a \cdot b } \right)\\
+\label{label33}
 \end{align*}
-$$ (label33)
+$$ (label44)
 
-Multiplied with $\cdot \frac{ab}{ab}$, it becomes:
+Multiplied with $\cdot \frac{ab}{ab}$, this becomes:
 $$
-\begin{align*}
-    H_{X,Y}(x,y) & = \frac{xy}{5a^2\cdot b^2} \left(2a\cdot y + 2b \cdot x + x \cdot y \right)
-\end{align*}
+    H_{X,Y}(x,y) = \frac{xy}{5a^2\cdot b^2} \left(2a\cdot y + 2b \cdot x + x \cdot y \right)
 $$ (label34)
 
 Then the marginal distribution functions can be found by obtaining limits of equation \eqref{label33}
 
-
+$$
+\begin{align*}
+    F_{X}(x) & = \lim_{x\to sup(Y)}{H_{X,Y}(x,y)}\\
+    &= \lim_{x\to max(Y)}{H_{X,Y}(x,y)}\\
+    &= \lim_{x\to b}{H_{X,Y}(x,y)}\\
+    &= H_{X,Y}(x,b)\\
+    &= \frac{x \cdot b}{5a^2\cdot b^2} \left(2a\cdot b + 2b \cdot x + x \cdot y \right)\\
+    &= \frac{x}{5a^2\cdot b} \left(3x\cdot b + 2b\cdot a \right)\\
+    &= \frac{x}{5a^2} \left(3x + 2 a \right)\\
+\end{align*}
+$$ (label44)
 :::
