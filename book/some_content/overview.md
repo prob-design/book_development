@@ -64,6 +64,7 @@ $$
 $$ (label35)
 
 In a similar manner the expression for $F_Y(y)$ can be obtained:
+
 $$
 \begin{align*}
     F_Y(y) &= \frac{y}{5a\cdot b^2} \left(3y\cdot a + 2b\cdot a \right)\\
@@ -73,6 +74,7 @@ $$ (label36)
 :::
 
 Now the inverses of $F$ and $G$ need to be found. For this example, it is possible to find a closed form expression for the inverse on its domain.
+
 $$
 \begin{align*}
     u&=\frac{x}{5a^2} \left(3x + 2 a \right)\\
@@ -87,8 +89,10 @@ $$
 $$ (label37)
 
 In a similar way the expression for $G_{V}^{-1}(v)$ can be found:
+
 $$
     G_{V}^{-1}(v) = \frac{b}{6} \left(5\sqrt{\frac{12v}{5}+ \frac{4}{25}} - 2 \right)
 $$ (label38)
+
 
 According to equation \ref(), these expression above must then be substituted for the arguments $x$ and $y$ \ref() to obtain the copula $C_{U,V}$
