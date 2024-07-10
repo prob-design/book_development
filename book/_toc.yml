@@ -5,7 +5,7 @@ parts:
   - caption: Contents
     chapters:
     - file: some_content/overview.md
-    - file: some_content/example_2_25_code.md
+
 
 # START REMOVE-FROM-PUBLISH
       sections:
