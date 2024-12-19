@@ -8,7 +8,7 @@ parts:
 # START REMOVE-FROM-PUBLISH
       sections:
       - file: some_content/text_and_code.ipynb
-    - file: exercises/
+    - file: exercises/overview.md
       title: some exercises
       sections:
         - file: exercises/independence+conditional.md
