@@ -14,6 +14,8 @@ parts:
         - file: exercises/independence+conditional.md
         - file: exercises/jointDistribution.md
         - file: exercises/MLE_exercises.md
+        - file: exercises/MLE_1.md
+        - file: exercises/MLE_2.md
 # END REMOVE-FROM-PUBLISH
     - file: references.md
     - file: credits.md

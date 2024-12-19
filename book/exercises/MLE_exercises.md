@@ -24,6 +24,7 @@ L(\theta \mid \mathbf{x})=\prod_{i=1}^n f\left(x_i \mid \theta\right) & =\prod_{
 \end{aligned}
 $$
 ```
+:::
 
 :::{card} Exercise 2
 
@@ -49,6 +50,7 @@ L(\theta \mid \mathbf{x})=\prod_{i=1}^n f\left(x_i \mid \theta\right)&=\sqrt{\fr
 \end{aligned}
 $$
 ```
+:::
 
 :::{card} Exercise 3
 
@@ -74,3 +76,4 @@ L(\theta \mid \mathbf{x})=f(x \mid \theta) & =\frac{x}{\theta^2} e^{-\frac{x^2}{
 \end{aligned}
 $$
 ```
+:::
