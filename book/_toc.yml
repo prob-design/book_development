@@ -8,6 +8,12 @@ parts:
 # START REMOVE-FROM-PUBLISH
       sections:
       - file: some_content/text_and_code.ipynb
+    - file: exercises/
+      title: some exercises
+      sections:
+        - file: exercises/independence+conditional.md
+        - file: exercises/jointDistribution.md
+        - file: exercises/MLE_exercises.md
 # END REMOVE-FROM-PUBLISH
     - file: references.md
     - file: credits.md
