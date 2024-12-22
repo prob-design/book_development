@@ -60,7 +60,7 @@ Setting the derivative of the log-likelihood function equal to zero: $$\frac{d\l
 Solving for the maximum likelihood estimate $\hat{\theta}$, we obtain $\hat{\theta} = \frac{2n}{\sum_{i=1}^n z_i}$.
 ```
 ---
-
+:::
 ## 3. Buckling of Steel Columns
 
 A structural steel manufacturer company carried out an inspection on the steel beams it's producing. Out of the 100 selected samples, 9 did not meet the buckling requirements.
