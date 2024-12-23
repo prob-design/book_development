@@ -16,8 +16,8 @@ parts:
         - file: exercises/MLE_exercises.md
         - file: exercises/MLE_1.md
         - file: exercises/MLE_2.md
-        - file: exercises/hydro_OE.ipynb
-          title: Overeaching exercise 1
+        - file: exercises/loads_OE.ipynb
+          title: Overarching exercise 1
 # END REMOVE-FROM-PUBLISH
     - file: references.md
     - file: credits.md
